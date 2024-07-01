@@ -5,7 +5,7 @@ void HoareSort(int* arr, int n, int left, int right)
 	int r = right;
 	int mid = arr[(left + right) / 2];
 
-	while (l <= r)
+	while (l < r)
 	{
 		while (arr[l] < mid)
 			++l;
